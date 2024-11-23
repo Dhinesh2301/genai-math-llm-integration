@@ -15,6 +15,7 @@ and the system calculates its volume by invoking a Python function using the fun
 3. Integrate the function into an LLM-based chat completion system with function-calling capabilities.
 
 ### PROGRAM:
+```
 import openai
 import math
 
@@ -51,7 +52,7 @@ def main():
 # Execute the main function
 if __name__ == "__main__":
     main()
-
+```
 ### OUTPUT:
 ![image](https://github.com/user-attachments/assets/9aaee16f-77b9-41b4-8051-2e7665adb1cb)
 
